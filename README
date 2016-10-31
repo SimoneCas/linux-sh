@@ -1,0 +1,33 @@
+Personal repository with linux scripts.
+
+For this Purpose			Use this vi Command Syntax
+To insert new text			esc + i ( You have to press 'escape' key then 'i')
+To save file				esc + : + w (Press 'escape' key  then 'colon' and finally 'w')
+To save file with file name (save as)	esc + : + w  "filename"
+To quit the vi editor			esc + : + q
+To quit without saving			esc + : + q!
+To save and quit vi editor		esc + : + wq
+To search for specified word 
+in forward direction			esc + /word (Press 'escape' key, type /word-to-find, for e.g. to find word 'shri', type as
+/shri)
+To continue with search 		n
+To search for specified word 
+in backward direction			esc + ?word (Press 'escape' key, type word-to-find)
+To copy the line where 
+cursor is located			esc + yy
+To paste the text just 
+deleted or copied at the cursor		esc + p
+To delete entire line 
+where cursor is located			esc + dd
+To delete word from cursor position	esc + dw
+To Find all occurrence of given 
+word and Replace then globally 
+without confirmation 			esc + :$s/word-to-find/word-to-replace/g
+
+For. e.g. :$s/mumbai/pune/g
+Here word "mumbai" is replace with "pune"
+ 
+To Find all occurrence of given word and Replace then globally with confirmation	esc + :$s/word-to-find/word-to-replace/cg
+To run shell command like ls, cp or date etc within vi	esc + :!shell-command
+
+For e.g. :!pwd 
