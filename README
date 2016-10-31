@@ -1,5 +1,6 @@
 Personal repository with linux scripts.
 
+### COMANDI VI ###
 For this Purpose			Use this vi Command Syntax
 To insert new text			esc + i ( You have to press 'escape' key then 'i')
 To save file				esc + : + w (Press 'escape' key  then 'colon' and finally 'w')
